@@ -109,19 +109,26 @@ footer {
 }
 /* New styles for the pop-up */
 .popup {
-    display: none;
+    display: flex; /* Ubah display menjadi flex */
     position: fixed;
     top: 0;
     left: 0;
-    padding: 20px;
     height: 100%;
     width: 100%;
-    align-items: center;
-    justify-content: center;
-    background-color: #171717;
+    align-items: center; /* Menyelaraskan secara vertikal */
+    justify-content: center; /* Menyelaraskan secara horizontal */
+    background-color: rgba(23, 23, 23, 0.9); /* Background semi-transparan */
     box-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
     z-index: 1000;
     animation: popupFadeIn 0.5s ease;
+}
+
+.popup-content {
+    background-color: #171717;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.6);
 }
 
 @keyframes popupFadeIn {
