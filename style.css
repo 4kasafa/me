@@ -121,7 +121,6 @@ footer {
     background-color: #171717;
     box-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
     z-index: 1000;
-    width: 70%;
     animation: popupFadeIn 0.5s ease;
 }
 
