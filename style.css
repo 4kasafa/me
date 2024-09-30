@@ -114,7 +114,7 @@ footer {
     top: 0;
     left: 0;
     height: 100%;
-    width: 70%;
+    width: 100%;
     align-items: center; /* Menyelaraskan secara vertikal */
     justify-content: center; /* Menyelaraskan secara horizontal */
     background-color: rgba(23, 23, 23, 0.9); /* Background semi-transparan */
