@@ -1,5 +1,5 @@
 function showPopup() {
-            document.getElementById('popup').style.display = 'block';
+            document.getElementById('popup').style.display = 'flex';
         }
 
         function closePopup() {
