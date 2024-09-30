@@ -114,6 +114,8 @@ footer {
     top: 0;
     left: 0;
     padding: 20px;
+    align-items: center;
+    justify-content: center;
     background-color: #171717;
     box-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
     z-index: 1000;
